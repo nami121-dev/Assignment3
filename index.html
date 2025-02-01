@@ -24,6 +24,8 @@
             'btn-green': 'rgba(23, 152, 0, 1)',
             'card':'#115414',
             'btn-2':'#63B76D',
+            'card2':'rgb(16, 40, 97)',
+            'btn-3':'rgb(42, 77, 151)',
             clifford: '#da373d',
           }
         }
@@ -187,7 +189,7 @@
    products section -->
     <section class="bg-red-50 py-12 my-28">
       <h2 class="text-4xl text-btn-green font-semibold spa p-5">Popular Products</h2>
-    <div class="flex">
+    <div class="flex flex-col lg:flex-row">
         <!-- 1st -->
         <div class="bg-gradient-to-br from-green-400 to-green-50 w-[415px] h-[405px] relative rounded-lg m-5 ">
           <h3 class="text-2xl text-white font-semibold p-5">30% off</h3>
@@ -201,8 +203,8 @@
          
         </div>
         <!-- 2nd -->
-       <div class="grid grid-cols-3 grid-rows-3 gap-2 max-w-[870px] max-h-[400px]">
-        <div class="flex gap-5 bg-white rounded-lg w-[250px] h-[100px] m-10">
+       <div class="grid grid-cols-2 grid-rows-4 lg:grid-cols-3 lg:grid-rows-3 gap-2 w-full lg:max-w-[870px] max-h-[400px]">
+        <div class=" flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
           <div class="p-2">
             <img src="c2-assets/Group 16 (1).png" alt="">
           </div>
@@ -220,7 +222,7 @@
           </div>
   
         </div>
-        <div class="flex gap-5 bg-white rounded-lg w-[250px] h-[100px] m-10">
+        <div class=" flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
           <div class="p-2">
             <img src="c2-assets/Group 16 (2).png" alt="">
           </div>
@@ -238,7 +240,7 @@
           </div>
   
         </div>
-        <div class="flex gap-5 bg-white rounded-lg w-[250px] h-[100px] m-10">
+        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
           <div class="p-2">
             <img src="c2-assets/Group 16.png" alt="">
           </div>
@@ -256,7 +258,7 @@
           </div>
   
         </div>
-        <div class="flex gap-5 bg-white rounded-lg w-[250px] h-[100px] m-10">
+        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
           <div class="p-2">
             <img src="c2-assets/Group 16 (1).png" alt="">
           </div>
@@ -274,7 +276,7 @@
           </div>
   
         </div>
-        <div class="flex gap-5 bg-white rounded-lg w-[250px] h-[100px] m-10">
+        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
           <div class="p-2">
             <img src="c2-assets/Group 16 (1).png" alt="">
           </div>
@@ -292,7 +294,7 @@
           </div>
   
         </div>
-        <div class="flex gap-5 bg-white rounded-lg w-[250px] h-[100px] m-10">
+        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
           <div class="p-2">
             <img src="c2-assets/Group 16 (2).png" alt="">
           </div>
@@ -310,7 +312,7 @@
           </div>
   
         </div>
-        <div class="flex gap-5 bg-white rounded-lg w-[250px] h-[100px] m-10">
+        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
           <div class="p-2">
             <img src="c2-assets/Group 16.png" alt="">
           </div>
@@ -328,7 +330,7 @@
           </div>
   
         </div>
-        <div class="flex gap-5 bg-white rounded-lg w-[250px] h-[100px] m-10">
+        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10 ">
           <div class="p-2">
             <img src="c2-assets/Group 16 (1).png" alt="">
           </div>
@@ -346,7 +348,7 @@
           </div>
   
         </div>
-        <div class="flex gap-5 bg-white rounded-lg w-[250px] h-[100px] m-10">
+        <div class="lg:flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10 hidden">
           <div class="p-2">
             <img src="c2-assets/Group 16 (2).png" alt="">
           </div>
@@ -371,19 +373,40 @@
     </div>
     </section>
 <!-- offers section -->
- <h2 class="text-btn-green text-4xl font-semibold">Arrival & Offers</h2>
- <div class="hero bg-card h-[340px] w-[720px]">
-  <div class="hero-content flex-col lg:flex-row-reverse">
-   <img src="c2-assets/dawat-mock-up.png" alt="">
-      
-    <div>
-      <img src="c2-assets/dawat-logo.png" alt="">
-      
-      <button class="btn btn-primary bg-btn-2">Get Started</button>
-    </div>
+
+    <section class="lg:mx-[100px]">
+      <h2 class="text-btn-green text-4xl font-semibold mb-10">Arrival & Offers</h2>
+  <div class="flex flex-col lg:flex-row gap-5">
+        <!-- 1st card -->
+        <div class="hero bg-card w-screen h-[340px] lg:w-[720px] rounded-xl flex p-3 ">
+          <div class="space-y-5 ">
+           <img class="w-full" src="c2-assets/dawat-logo.png" alt="">
+           <button class="font-bold text-xl text-white rounded-lg bg-btn-2 lg:w-[330px] h-[60px]">Cook Exotic Dishes</button>
+              <p class=" text-2xl lg:text-5xl text-white">UP to <span class="font-bold">20% OFF</span></p>
+            </div>
+              
+            <div>
+              <img src="c2-assets/dawat-mock-up.png" alt="">
+              
+              
+          </div>
+        </div>
+        
+        <!-- 2nd card -->
+        <div class="hero bg-card2 w-full h-[340px] lg:w-[620px] rounded-xl flex p-3">
+         <div class=" space-y-5">
+          <img src="c2-assets/india-gate-logo.png" alt="">
+             
+             <button class="font-bold text-xl text-white rounded-lg bg-btn-3 lg:w-[330px] h-[60px]">Cook Exotic Dishes</button>
+             <p class=" text-2xl lg:text-5xl text-white">UP to <span class="font-bold">20% OFF</span></p>
+            </div>
+           <div>
+            <img src="c2-assets/india-gate-mock-up.png" alt="">
+             
+        
+         </div>
+       </div>
   </div>
-</div>
-    <section>
       
 
     </section>
