@@ -22,10 +22,10 @@
         extend: {
           colors: {
             'btn-green': 'rgba(23, 152, 0, 1)',
-            'card':'#115414',
-            'btn-2':'#63B76D',
-            'card2':'rgb(16, 40, 97)',
-            'btn-3':'rgb(42, 77, 151)',
+            'card': '#115414',
+            'btn-2': '#63B76D',
+            'card2': 'rgb(16, 40, 97)',
+            'btn-3': 'rgb(42, 77, 151)',
             clifford: '#da373d',
           }
         }
@@ -42,7 +42,7 @@
 </head>
 
 <body>
-  
+
   <header class="container mx-auto">
     <nav class="flex mt-10 justify-center items-center lg:border-hidden border-2 border-b-green-400">
       <div class="navbar-start">
@@ -97,6 +97,15 @@
 
 
     </nav>
+   <div class="flex justify-center">
+    <h1 class="text-3xl text-right text-green-800 lg:text-green-300 font-semibold">Website loading</h1>
+    
+      <span class="loading loading-bars loading-xs"></span>
+    <span class="loading loading-bars loading-sm"></span>
+    <span class="loading loading-bars loading-md"></span>
+    <span class="loading loading-bars loading-lg"></span>
+    
+   </div>
     <!-- banner section -->
     <div class="my-12 bg-gradient-to-b from-white to-red-50">
       <!-- text -->
@@ -190,352 +199,371 @@
    products section -->
     <section class="bg-red-50 py-12 my-28">
       <h2 class="text-4xl text-btn-green font-semibold spa p-5">Popular Products</h2>
-    <div class="flex flex-col lg:flex-row">
+      <div class="flex flex-col lg:flex-row">
         <!-- 1st -->
         <div class="bg-gradient-to-br from-green-400 to-green-50 w-[415px] h-[405px] relative rounded-lg m-5 ">
           <h3 class="text-2xl text-white font-semibold p-5">30% off</h3>
           <p class="p-5">Discover a world of treats,toys and <br> essentials handpicked for.</p>
           <button class="bg-white rounded-xl px-7 py-4 mx-4">Buy now</button>
-         
+
           <div class="relative  left-36 w-[210px]">
-            <img   src="c2-assets/vegetable-offer.png" alt="">
+            <img src="c2-assets/vegetable-offer.png" alt="">
           </div>
-  
-         
+
+
         </div>
         <!-- 2nd -->
-       <div class="grid grid-cols-2 grid-rows-4 lg:grid-cols-3 lg:grid-rows-3 gap-2 w-full lg:max-w-[870px] max-h-[400px]">
-        <div class=" flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
-          <div class="p-2">
-            <img src="c2-assets/Group 16 (1).png" alt="">
-          </div>
-          <div>
-           <div class="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-300">
-              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-            </svg>
-            <p>4.5</p>
-           </div>
-            <p class="text-xl font-semibold">onion 1 kg</p>
-            <p>$39.99</p>
-            
-            
-          </div>
-  
-        </div>
-        <div class=" flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
-          <div class="p-2">
-            <img src="c2-assets/Group 16 (2).png" alt="">
-          </div>
-          <div>
-           <div class="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-300">
-              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-            </svg>
-            <p>4.5</p>
-           </div>
-            <p class="text-xl font-semibold">onion 1 kg</p>
-            <p>$39.99</p>
-            
-            
-          </div>
-  
-        </div>
-        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
-          <div class="p-2">
-            <img src="c2-assets/Group 16.png" alt="">
-          </div>
-          <div>
-           <div class="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-300">
-              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-            </svg>
-            <p>4.5</p>
-           </div>
-            <p class="text-xl font-semibold">onion 1 kg</p>
-            <p>$39.99</p>
-            
-            
-          </div>
-  
-        </div>
-        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
-          <div class="p-2">
-            <img src="c2-assets/Group 16 (1).png" alt="">
-          </div>
-          <div>
-           <div class="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-300">
-              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-            </svg>
-            <p>4.5</p>
-           </div>
-            <p class="text-xl font-semibold">onion 1 kg</p>
-            <p>$39.99</p>
-            
-            
-          </div>
-  
-        </div>
-        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
-          <div class="p-2">
-            <img src="c2-assets/Group 16 (1).png" alt="">
-          </div>
-          <div>
-           <div class="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-300">
-              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-            </svg>
-            <p>4.5</p>
-           </div>
-            <p class="text-xl font-semibold">onion 1 kg</p>
-            <p>$39.99</p>
-            
-            
-          </div>
-  
-        </div>
-        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
-          <div class="p-2">
-            <img src="c2-assets/Group 16 (2).png" alt="">
-          </div>
-          <div>
-           <div class="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-300">
-              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-            </svg>
-            <p>4.5</p>
-           </div>
-            <p class="text-xl font-semibold">onion 1 kg</p>
-            <p>$39.99</p>
-            
-            
-          </div>
-  
-        </div>
-        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
-          <div class="p-2">
-            <img src="c2-assets/Group 16.png" alt="">
-          </div>
-          <div>
-           <div class="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-300">
-              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-            </svg>
-            <p>4.5</p>
-           </div>
-            <p class="text-xl font-semibold">onion 1 kg</p>
-            <p>$39.99</p>
-            
-            
-          </div>
-  
-        </div>
-        <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10 ">
-          <div class="p-2">
-            <img src="c2-assets/Group 16 (1).png" alt="">
-          </div>
-          <div>
-           <div class="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-300">
-              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-            </svg>
-            <p>4.5</p>
-           </div>
-            <p class="text-xl font-semibold">onion 1 kg</p>
-            <p>$39.99</p>
-            
-            
-          </div>
-  
-        </div>
-        <div class="lg:flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10 hidden">
-          <div class="p-2">
-            <img src="c2-assets/Group 16 (2).png" alt="">
-          </div>
-          <div>
-           <div class="flex gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-amber-300">
-              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-            </svg>
-            <p>4.5</p>
-           </div>
-            <p class="text-xl font-semibold">onion 1 kg</p>
-            <p>$39.99</p>
-            
-            
-          </div>
-  
-        </div>
-  
-       </div>
+        <div
+          class="grid grid-cols-2 grid-rows-4 lg:grid-cols-3 lg:grid-rows-3 gap-2 w-full lg:max-w-[870px] max-h-[400px]">
+          <div class=" flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
+            <div class="p-2">
+              <img src="c2-assets/Group 16 (1).png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="size-6 text-amber-300">
+                  <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <p>4.5</p>
+              </div>
+              <p class="text-xl font-semibold">onion 1 kg</p>
+              <p>$39.99</p>
 
 
-    </div>
+            </div>
+
+          </div>
+          <div class=" flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
+            <div class="p-2">
+              <img src="c2-assets/Group 16 (2).png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="size-6 text-amber-300">
+                  <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <p>4.5</p>
+              </div>
+              <p class="text-xl font-semibold">onion 1 kg</p>
+              <p>$39.99</p>
+
+
+            </div>
+
+          </div>
+          <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
+            <div class="p-2">
+              <img src="c2-assets/Group 16.png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="size-6 text-amber-300">
+                  <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <p>4.5</p>
+              </div>
+              <p class="text-xl font-semibold">onion 1 kg</p>
+              <p>$39.99</p>
+
+
+            </div>
+
+          </div>
+          <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
+            <div class="p-2">
+              <img src="c2-assets/Group 16 (1).png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="size-6 text-amber-300">
+                  <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <p>4.5</p>
+              </div>
+              <p class="text-xl font-semibold">onion 1 kg</p>
+              <p>$39.99</p>
+
+
+            </div>
+
+          </div>
+          <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
+            <div class="p-2">
+              <img src="c2-assets/Group 16 (1).png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="size-6 text-amber-300">
+                  <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <p>4.5</p>
+              </div>
+              <p class="text-xl font-semibold">onion 1 kg</p>
+              <p>$39.99</p>
+
+
+            </div>
+
+          </div>
+          <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
+            <div class="p-2">
+              <img src="c2-assets/Group 16 (2).png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="size-6 text-amber-300">
+                  <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <p>4.5</p>
+              </div>
+              <p class="text-xl font-semibold">onion 1 kg</p>
+              <p>$39.99</p>
+
+
+            </div>
+
+          </div>
+          <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10">
+            <div class="p-2">
+              <img src="c2-assets/Group 16.png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="size-6 text-amber-300">
+                  <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <p>4.5</p>
+              </div>
+              <p class="text-xl font-semibold">onion 1 kg</p>
+              <p>$39.99</p>
+
+
+            </div>
+
+          </div>
+          <div class="flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10 ">
+            <div class="p-2">
+              <img src="c2-assets/Group 16 (1).png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="size-6 text-amber-300">
+                  <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <p>4.5</p>
+              </div>
+              <p class="text-xl font-semibold">onion 1 kg</p>
+              <p>$39.99</p>
+
+
+            </div>
+
+          </div>
+          <div class="lg:flex gap-5 bg-white rounded-lg lg:w-[250px] h-[100px] m-1 lg:m-10 hidden">
+            <div class="p-2">
+              <img src="c2-assets/Group 16 (2).png" alt="">
+            </div>
+            <div>
+              <div class="flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                  class="size-6 text-amber-300">
+                  <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <p>4.5</p>
+              </div>
+              <p class="text-xl font-semibold">onion 1 kg</p>
+              <p>$39.99</p>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
     </section>
-<!-- offers section -->
+    <!-- offers section -->
 
     <section class="lg:mx-[100px]">
       <h2 class="text-btn-green text-4xl font-semibold mb-10">Arrival & Offers</h2>
-  <div class="flex flex-col lg:flex-row gap-5">
+      <div class="flex flex-col lg:flex-row gap-5">
         <!-- 1st card -->
         <div class="hero bg-card w-screen h-[340px] lg:w-[720px] rounded-xl flex p-3 ">
           <div class="space-y-5 ">
-           <img class="w-full" src="c2-assets/dawat-logo.png" alt="">
-           <button class="font-bold text-xl text-white rounded-lg bg-btn-2 lg:w-[330px] h-[60px]">Cook Exotic Dishes</button>
-              <p class=" text-2xl lg:text-5xl text-white">UP to <span class="font-bold">20% OFF</span></p>
-            </div>
-              
-            <div>
-              <img src="c2-assets/dawat-mock-up.png" alt="">
-              
-              
+            <img class="w-full" src="c2-assets/dawat-logo.png" alt="">
+            <button class="font-bold text-xl text-white rounded-lg bg-btn-2 lg:w-[330px] h-[60px]">Cook Exotic
+              Dishes</button>
+            <p class=" text-2xl lg:text-5xl text-white">UP to <span class="font-bold">20% OFF</span></p>
+          </div>
+
+          <div>
+            <img src="c2-assets/dawat-mock-up.png" alt="">
+
+
           </div>
         </div>
-        
+
         <!-- 2nd card -->
         <div class="hero bg-card2 w-full h-[340px] lg:w-[620px] rounded-xl flex p-3">
-         <div class=" space-y-5">
-          <img src="c2-assets/india-gate-logo.png" alt="">
-             
-             <button class="font-bold text-xl text-white rounded-lg bg-btn-3 lg:w-[330px] h-[60px]">Cook Exotic Dishes</button>
-             <p class=" text-2xl lg:text-5xl text-white">UP to <span class="font-bold">20% OFF</span></p>
-            </div>
-           <div>
+          <div class=" space-y-5">
+            <img src="c2-assets/india-gate-logo.png" alt="">
+
+            <button class="font-bold text-xl text-white rounded-lg bg-btn-3 lg:w-[330px] h-[60px]">Cook Exotic
+              Dishes</button>
+            <p class=" text-2xl lg:text-5xl text-white">UP to <span class="font-bold">20% OFF</span></p>
+          </div>
+          <div>
             <img src="c2-assets/india-gate-mock-up.png" alt="">
-             
-        
-         </div>
-       </div>
-  </div>
-      
+
+
+          </div>
+        </div>
+      </div>
+
 
     </section>
 
     <!-- clients review -->
-     <section class="gap-8 lg:mx-auto flex lg:flex-row flex-col justify-center mt-40 mx-10">
+    <section class="gap-8 lg:mx-auto flex lg:flex-row flex-col justify-center mt-40 mx-10">
       <div class="card card-compact bg-base-100 w-96 shadow-xl py-5 bg-gradient-to-b from-orange-100 to-white ">
-       
-          <figure>
-            <div class="avatar">
-              <div class="mask mask-squircle w-24">
-                <img src="c2-assets/Hardy.jpeg" />
-              </div>
+
+        <figure>
+          <div class="avatar">
+            <div class="mask mask-squircle w-24">
+              <img src="c2-assets/Hardy.jpeg" />
             </div>
-          </figure>
-          <div class="card-body">
-            <h2 class="text-2xl font-bold text-center">Mary Hardy</h2>
-            <p class="text-center">My experience is amazing.Their product quality and services are awesome.</p>
-            
           </div>
-          <div class="rating flex justify-center">
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input
-              type="radio"
-              name="rating-2"
-              class="mask mask-star-2 bg-orange-400"
-              checked="checked" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          </div>
+        </figure>
+        <div class="card-body">
+          <h2 class="text-2xl font-bold text-center">Mary Hardy</h2>
+          <p class="text-center">My experience is amazing.Their product quality and services are awesome.</p>
+
         </div>
+        <div class="rating flex justify-center">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+      </div>
       <div class="card card-compact bg-base-100 w-96 shadow-xl py-5 bg-gradient-to-b from-orange-100 to-white ">
-       
-          <figure>
-            <div class="avatar">
-              <div class="mask mask-squircle w-24">
-                <img src="c2-assets/Linda Churco.jpeg" />
-              </div>
+
+        <figure>
+          <div class="avatar">
+            <div class="mask mask-squircle w-24">
+              <img src="c2-assets/Linda Churco.jpeg" />
             </div>
-          </figure>
-          <div class="card-body">
-            <h2 class="text-2xl font-bold text-center">Mary Hardy</h2>
-            <p class="text-center">I purchased for here several times.Services were so good.</p>
-            
           </div>
-          <div class="rating flex justify-center">
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input
-              type="radio"
-              name="rating-2"
-              class="mask mask-star-2 bg-orange-400"
-              checked="checked" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          </div>
+        </figure>
+        <div class="card-body">
+          <h2 class="text-2xl font-bold text-center">Mary Hardy</h2>
+          <p class="text-center">I purchased for here several times.Services were so good.</p>
+
         </div>
+        <div class="rating flex justify-center">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+      </div>
       <div class="card card-compact bg-base-100 w-96 shadow-xl py-5 bg-gradient-to-b from-orange-100 to-white ">
-       
-          <figure>
-            <div class="avatar">
-              <div class="mask mask-squircle w-24">
-                <img src="c2-assets/Nick Zonas.jpg" />
-              </div>
+
+        <figure>
+          <div class="avatar">
+            <div class="mask mask-squircle w-24">
+              <img src="c2-assets/Nick Zonas.jpg" />
             </div>
-          </figure>
-          <div class="card-body">
-            <h2 class="text-2xl font-bold text-center">Mary Hardy</h2>
-            <p class="text-center">Experience was pretty good.</p>
-            
           </div>
-          <div class="rating flex justify-center">
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input
-              type="radio"
-              name="rating-2"
-              class="mask mask-star-2 bg-orange-400"
-              checked="checked" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          </div>
+        </figure>
+        <div class="card-body">
+          <h2 class="text-2xl font-bold text-center">Mary Hardy</h2>
+          <p class="text-center">Experience was pretty good.</p>
+
         </div>
-     </section>
-  
+        <div class="rating flex justify-center">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <section class="bg-red-50 w-[380px] lg:w-[1300px] mx-auto rounded-xl relative  top-48 py-12">
-   <div class="flex lg:flex-row flex-col p-7 justify-around">
-    <div>
-      <img src="c2-assets/vegetable-busket.png" alt="">
+    <div class="flex lg:flex-row flex-col p-7 justify-around">
+      <div>
+        <img src="c2-assets/vegetable-busket.png" alt="">
+      </div>
+      <div class="">
+        <h2 class="font-semibold text-4xl py-4">Get Grocery News!</h2>
+        <p class="py-4">Exclusive training tips, ticks, product deals and more.</p>
+        <input class="bg-white lg:w-[370px] w-[350px] h-[50px] py-4" type="text" name="" id=""> <br>
+        <button class="bg-btn-green rounded-xl px-8 py-3 text-white font-bold mt-6">Subscribe</button>
+      </div>
     </div>
-    <div class="">
-      <h2 class="font-semibold text-4xl py-4">Get Grocery News!</h2>
-      <p class="py-4">Exclusive training tips, ticks, product deals and more.</p>
-      <input class="bg-white lg:w-[370px] w-[350px] h-[50px] py-4" type="text" name="" id=""> <br>
-      <button class="bg-btn-green rounded-xl px-8 py-3 text-white font-bold mt-6">Subscribe</button>
-    </div>
-   </div>
 
   </section>
-  
-    <footer class="footer lg:text-base-content bg-btn-green px-5 py-3 lg:px-12 h-[658px] pt-96">
-      <nav>
-       <img src="c2-assets/logo-footer.png" alt="">
-       <p class="text-xl text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry friends</p>
-      </nav>
-      <nav class="text-white flex lg:flex-none">
-        <a>Product</a>
-        <a>Services</a>
-        <a>Contact us</a>
-      </nav>
-      <nav>
-        <h6 class="text-white">Follow Us</h6>
-        <div class="grid grid-flow-col gap-4">
-          
-          <a><img src="c2-assets/Vector.png" alt=""></a>
-        
-            <a><img src="c2-assets/Vector (1).png" alt=""></a>
-            
-         <a><img src="c2-assets/Mask group.png" alt=""></a>
-         <a><img src="c2-assets/Group.png" alt=""></a>
-        </div>
-      </nav>
-    </footer>
 
- 
+  <footer class="footer lg:text-base-content bg-btn-green px-5 py-3 lg:px-12 h-[658px] pt-96">
+    <nav>
+      <img src="c2-assets/logo-footer.png" alt="">
+      <p class="text-xl text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry
+        friends</p>
+    </nav>
+    <nav class="text-white flex lg:flex-none">
+      <a>Product</a>
+      <a>Services</a>
+      <a>Contact us</a>
+    </nav>
+    <nav>
+      <h6 class="text-white">Follow Us</h6>
+      <div class="grid grid-flow-col gap-4">
+
+        <a><img src="c2-assets/Vector.png" alt=""></a>
+
+        <a><img src="c2-assets/Vector (1).png" alt=""></a>
+
+        <a><img src="c2-assets/Mask group.png" alt=""></a>
+        <a><img src="c2-assets/Group.png" alt=""></a>
+      </div>
+    </nav>
+  </footer>
+
+
 
 </body>
 
