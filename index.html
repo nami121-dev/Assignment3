@@ -22,8 +22,6 @@
         extend: {
           colors: {
             'btn-green': 'rgba(23, 152, 0, 1)',
-            'grad-top':rgba(255, 255, 255, 1),
-            'grad-bottom':rgba(239, 235, 227, 1),
             clifford: '#da373d',
           }
         }
@@ -93,8 +91,8 @@
    <div class="my-12 bg-gradient-to-b from-white to-red-50">
     <!-- text -->
      <div class="space-y-8">
-      <h1 class="font-semibold text-6xl text-center">Freshness <span class="text-btn-green">You Can <br>
-        Count</span> On, Prices You’ll Love!</h1>
+      <h1 class="font-semibold text-6xl text-center"><span>Freshness</span> <span class="text-btn-green">You Can <br>
+        Count</span> <span>On, Prices You’ll Love!</span></h1>
         <p class="text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
 
      </div>
@@ -111,8 +109,73 @@
 
    </div>
   </header>
-  <main>
 
+  <main class="container mx-auto my-12">
+   <section class="mx-[140px]">
+     <!-- cards -->
+     <h2 class="font-semibold text-4xl text-btn-green">Services</h2>
+     <div class="flex flex-col lg:flex-row space-x-12 my-10">
+      <!-- card 1 -->
+       <div>
+        <div class="card bg-red-50 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+               <img src="c2-assets/service.png" alt="">
+              </div>
+            </div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">24/7 Services </h2>
+            <p>We are here for our customers all the  time.Everytime our services are with you.
+            </p>
+            
+          </div>
+        </div>
+       </div>
+       <!-- card 2 -->
+       <div>
+        <div class="card bg-red-50 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+               <img src="c2-assets/delivery.png" alt="">
+              </div>
+            </div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Fast Delivery</h2>
+            <p>We provide the fastest delivery in town.Everything in your hand within a blink.</p>
+            
+          </div>
+        </div>
+       </div>
+
+       <!-- card 3 -->
+       <div>
+        <div class="card bg-red-50 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+               <img src="c2-assets/healthy.png" alt="">
+              </div>
+            </div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Healthy Products </h2>
+            <p>Health is wealth.That's why we've organic products.</p>
+          </div>
+        </div>
+       </div>
+
+
+
+
+     </div>
+
+   </section>
+
+   
   </main>
   <footer>
 
